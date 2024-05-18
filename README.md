@@ -25,7 +25,7 @@ You need a roster with at least the following columns: <br>
 6. Spend is where the tool will place how much of your budget will go to that employee. Select only a blank cell for the first employee on the column where you want the values placed.
 
 # Installing this tool in your roster file:
-After downloading the two files (FRM and FRX), if you need assistance importing the FRM file to your Excel file, follow the instructions below:
+After downloading the two files (FRM and FRX) from this repository, if you need assistance importing the FRM file to your Excel file, follow the instructions below:
 1. On Excel, press alt + F11 to open the Visual Basic Editor
 2. On the Visual Basic editor, right-click your file and then click on "import file":<br>
 ![image](https://github.com/jacksoncaquino/Compa-Ratio-Catch-Up/assets/61064363/a8632f0a-0c0b-4fb6-b759-a5ca4f32cbd1)
