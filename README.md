@@ -13,11 +13,19 @@ This tool has saved me a lot of time so far. It was coded in VBA and is run dire
 ![image](https://github.com/jacksoncaquino/Compa-Ratio-Catch-Up/assets/61064363/4502cee0-9034-48b2-abfc-0715f23225cc)
 
 # How to use those fields?
-
-
+You need a roster with at least the following columns: <br>
+• Compa-Ratio<br>
+• Midpoint for the pay range of the job where each employee sits<br>
+<br>
+1. For the budget, you can provide the budget number by either typing the number to the text edit on the form or by clicking a cell in your spreadsheet that has the total budget. Alternatively, you can also select a range that has the budget for each employee and it will sum it for you.
+2. For CR first cell, know that your roster will need to have the employees' current compa ratio. It is important that there are no blank cells for current compa-ratio, or else the whole budget will be spent only on the segment of employees before the first interruption.
+3. For midpoints 1st cell, please select the first cell where the midpoints for the employees' pay ranges are.
+4. For FTE, you can ignore this if all employees are full-time. If not, you will need a number between 0 and 1 for each employee. For example, if that location has a 40 hour work week and you a an employee who works 20 hours a week, FTE should be 0.5. Alternatively, if you have already adjusted the pay ranges to that, you do not need to include this FTE information.
+5. For eligibility, you are able to indicate those who should not receive a raise even if their Compa-ratio is low. For example, you may determine that newly hired employees or employees who are low performers should not receive a raise. If that's the case, you may flag those to the tool by adding the word "No" to that column. Any blanks, "Yes", or anything other than a "No" will be eligible for a raise.
+6. Spend is where the tool will place how much of your budget will go to that employee. Select only a blank cell for the first employee on the column where you want the values placed.
 
 # Installing this tool in your roster file:
-If you need assistance importing the FRM file to your Excel file, follow the instructions below:
+After downloading the two files (FRM and FRX), if you need assistance importing the FRM file to your Excel file, follow the instructions below:
 1. On Excel, press alt + F11 to open the Visual Basic Editor
 2. On the Visual Basic editor, right-click your file and then click on "import file":<br>
 ![image](https://github.com/jacksoncaquino/Compa-Ratio-Catch-Up/assets/61064363/a8632f0a-0c0b-4fb6-b759-a5ca4f32cbd1)
